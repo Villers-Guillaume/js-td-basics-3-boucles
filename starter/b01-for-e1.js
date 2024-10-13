@@ -25,7 +25,12 @@ EXEMPLE 1 :
 // 1°) sans boucle : Écrivez ici toutes les instructions à la main, une par une
 
 // 2°) avec boucle FOR : Écrivez ici le code de la boucle FOR
+let compteur = 1;
 
+for (let i=1; i<=10;i++){
+    compteur=i;
+    console.log(compteur);
+}
 // N.B. TABLE D'ÉVOLUTION DES VARIABLES :
 //   nbre      nbre < =10           console.log(nbre)        nbre++
 // nbre = 1,   1 < 5 true,           affiche 1,          nbre passe à 1+1 = 2

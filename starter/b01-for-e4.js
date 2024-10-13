@@ -25,3 +25,13 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+let compteur = parseInt(prompt("Donne-moi le nombre dont tu veux sa table de multiplication"));
+
+
+if (compteur) {
+    console.log(`Voice la table de ${compteur}`);
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${i}*${compteur}=${i * compteur}`);
+    }
+}
+

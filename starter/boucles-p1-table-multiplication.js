@@ -18,3 +18,9 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+let compteur = prompt("Donne-moi le nombre dont tu veux savoir sa table de multiplication :");
+let numberValues = prompt("Donne-moi le nombre de valeurs que tu veux avoir pour la table :");
+console.log(`Voici les ${numberValues} de la table de ${compteur}`);
+for (let i = 0; i <=numberValues; i++){
+    console.log(`${i}*${compteur}=${compteur*i}`);
+}

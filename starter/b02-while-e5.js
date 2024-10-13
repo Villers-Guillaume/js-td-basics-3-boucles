@@ -24,7 +24,13 @@ EXEMPLE 5 :
 BONUS :
 - Après avoir quitté la boucle, affichez dans la console la chaîne complète saisie par l'utilisateur en concaténant les lettres.
 */
-
+let letter= prompt("Tapez une lettre ou X pour sortir :");
+let allLetter="";
+while (letter!=="X"){
+    allLetter+=letter;
+    letter=prompt("Tapez une lettre ou X pour sortir :");
+}
+console.log(`Voilà la chaîne de caractère avec toutes les lettres entrées avant d'avoir fermé : ${allLetter}`)
 
 
 
